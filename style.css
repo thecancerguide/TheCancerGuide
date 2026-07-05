@@ -1,12 +1,12 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fdfdfd;
-    color: #333333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFDF7;
+    color: #333;
 }
 
 header {
-    background: linear-gradient(135deg, #FFD54F, #FFF8E1);
+    background: linear-gradient(135deg, #FFE082, #FFF8E1);
     padding: 40px;
     text-align: center;
 }
@@ -17,16 +17,20 @@ header h1 {
     margin-bottom: 10px;
 }
 
+header p {
+    font-size: 18px;
+}
+
 nav {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 nav a {
     display: inline-block;
     text-decoration: none;
     background-color: #FFD54F;
-    color: #0D47A1;
-    padding: 10px 18px;
+    color: #1565C0;
+    padding: 12px 22px;
     margin: 8px;
     border-radius: 30px;
     font-weight: bold;
@@ -35,69 +39,34 @@ nav a {
 
 nav a:hover {
     background-color: #81D4FA;
-    transform: translateY(-2px);
-}
-
-nav a:hover {
-    color: #1976d2;
 }
 
 .hero {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #e3f2fd;
-}
-
-.hero h2 {
-    font-size: 40px;
-    color: #0d47a1;
-}
-
-.hero p {
-    font-size: 20px;
-    max-width: 700px;
-    margin: auto;
-}
-
-button {
-    background-color: #ffd54f;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    margin-top: 25px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ffca28;
+    background: white;
+    width: 85%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.1);
+    text-align: center;
 }
 
 section {
     background: white;
+    width: 85%;
     margin: 30px auto;
     padding: 30px;
-    width: 85%;
-    border-radius: 20px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-radius: 25px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.1);
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    background: white;
-    margin: 15px 0;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 2px 8px rgba(0,0,0,.1);
+    line-height: 2;
 }
 
 footer {
-    text-align: center;
-    padding: 30px;
-    background-color: #0d47a1;
-    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    color: gray;
 }
